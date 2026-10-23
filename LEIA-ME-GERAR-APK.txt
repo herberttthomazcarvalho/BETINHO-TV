@@ -1,0 +1,22 @@
+TV PLAY - COMO GERAR O APK SEM ANDROID STUDIO
+
+Este pacote ainda é código-fonte; o APK será compilado na nuvem pelo GitHub Actions.
+
+1. Entre em https://github.com e crie uma conta ou entre na sua conta.
+2. Clique no + no alto da página e escolha New repository.
+3. Dê o nome TV-PLAY e deixe o repositório como Private ou Public. Clique em Create repository.
+4. No repositório, escolha Add file > Upload files.
+5. Extraia este ZIP no computador. Abra a pasta extraída, selecione TODOS os arquivos e pastas, incluindo a pasta oculta .github, e arraste-os para a página do GitHub.
+   Importante: a pasta .github pode ficar oculta no Windows. No Explorador de Arquivos, abra Exibir > Mostrar > Itens ocultos.
+6. Clique em Commit changes.
+7. Abra a aba Actions do repositório.
+8. Na lista à esquerda, clique em Build TV PLAY APK.
+9. Clique em Run workflow e depois no botão verde Run workflow.
+10. Aguarde a execução terminar com marca verde. Abra a execução concluída e procure Artifacts.
+11. Baixe TV-PLAY-APK.zip e extraia. Dentro estará app-debug.apk.
+12. Copie app-debug.apk para a TV e instale. Pode ser necessário permitir instalação de apps de fontes desconhecidas.
+
+ATENÇÃO:
+- O GitHub compila o projeto; este pacote não contém APK pronto.
+- Se o build falhar, abra a execução e copie a mensagem vermelha de erro para pedir ajuda.
+- O app atual é uma demonstração. A reprodução de canais reais e a configuração de listas autorizadas ainda precisam ser feitas.
